@@ -1,0 +1,6 @@
+name: main-lobby
+version: 1.0-SNAPSHOT
+main: com.lothus.Lobby
+author: Toddy
+depend:
+  - core
