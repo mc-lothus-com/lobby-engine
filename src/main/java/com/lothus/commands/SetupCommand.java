@@ -1,9 +1,8 @@
 package com.lothus.commands;
 
 import com.lothus.Lobby;
-import com.lothus.definitions.locations.LocationInfo;
-import com.lothus.definitions.locations.type.LocationType;
 import com.mclothus.bukkit.commands.CommandBase;
+import com.mclothus.bukkit.utils.locations.type.LocationType;
 import com.mclothus.core.Core;
 import com.mclothus.core.player.LothPlayer;
 import com.mclothus.core.player.group.rank.Rank;

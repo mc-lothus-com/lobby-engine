@@ -35,14 +35,7 @@ public class InteractListener implements Listener {
         Player player = event.getPlayer();
         ItemStack itemStack = event.getItem();
 
-        if (event.getAction().name().contains("PHYSICAL")) {
-            if (event.getClickedBlock().getType() == Material.CROPS ||
-                    event.getClickedBlock().getType() == Material.CARROT ||
-                    event.getClickedBlock().getType() == Material.POTATO) {
-                event.setCancelled(true);
-                return;
-            }
-        }
+        event.setCancelled(true);
 
         if (itemStack == null || itemStack.getType() == Material.AIR)return;
 

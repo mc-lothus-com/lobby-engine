@@ -1,7 +1,6 @@
 package com.lothus.services.npc.bedwars;
 
 import com.lothus.Lobby;
-import com.lothus.definitions.locations.type.LocationType;
 import com.lothus.menus.play.bedwars.PlayBedMenu;
 import com.lothus.menus.play.skywars.PlaySkyMenu;
 import com.lothus.player.LobbyPlayer;
@@ -9,6 +8,7 @@ import com.lothus.services.Services;
 import com.lothus.utils.LocationUtil;
 import com.mclothus.bukkit.events.PlayerChangeSkinEvent;
 import com.mclothus.bukkit.events.UpdateEvent;
+import com.mclothus.bukkit.utils.locations.type.LocationType;
 import com.mclothus.bukkit.utils.player.PlayerUtil;
 import com.mclothus.core.Core;
 import com.mclothus.core.games.room.RoomType;

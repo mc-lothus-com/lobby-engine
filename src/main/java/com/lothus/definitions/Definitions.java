@@ -1,8 +1,6 @@
 package com.lothus.definitions;
 
 import com.lothus.Lobby;
-import com.lothus.definitions.locations.LocationInfo;
-import com.lothus.definitions.locations.type.LocationType;
 import com.lothus.engines.sync.data.type.DataType;
 import com.lothus.instance.type.InstanceType;
 import com.lothus.ranking.RankingHologram;
@@ -10,6 +8,8 @@ import com.lothus.utils.LocationUtil;
 import com.mclothus.bukkit.api.actionbar.ActionBar;
 import com.mclothus.bukkit.api.hologram.Hologram;
 import com.mclothus.bukkit.utils.items.ItemCreator;
+import com.mclothus.bukkit.utils.locations.LocationInfo;
+import com.mclothus.bukkit.utils.locations.type.LocationType;
 import com.mclothus.core.Core;
 import com.mclothus.core.player.LothPlayer;
 import com.mclothus.core.player.group.rank.Rank;

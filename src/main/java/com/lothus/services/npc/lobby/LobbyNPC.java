@@ -1,13 +1,11 @@
 package com.lothus.services.npc.lobby;
 
 import com.lothus.Lobby;
-import com.lothus.definitions.locations.type.LocationType;
-import com.lothus.player.LobbyPlayer;
 import com.lothus.services.Services;
-import com.lothus.utils.LocationUtil;
 import com.mclothus.bukkit.BukkitCore;
 import com.mclothus.bukkit.events.skin.PlayerChangeSkinEvent;
 import com.mclothus.bukkit.events.update.UpdateEvent;
+import com.mclothus.bukkit.utils.locations.type.LocationType;
 import com.mclothus.bukkit.utils.player.PlayerUtil;
 import com.mclothus.core.Core;
 import com.mclothus.core.servers.ServerInfo;
@@ -16,7 +14,6 @@ import lombok.Getter;
 import net.jitse.npclib.api.NPC;
 import net.jitse.npclib.api.events.NPCInteractEvent;
 import net.jitse.npclib.api.skin.Skin;
-import net.jitse.npclib.internal.NPCManager;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -32,7 +29,7 @@ import static com.mclothus.core.servers.type.ServerType.*;
 public class LobbyNPC implements Listener {
     
     @Getter
-    private NPC skywars, bedwars, training;
+    private NPC skywars, bedwars, training, battlepass;
 
     private JavaPlugin plugin;
 
