@@ -1,0 +1,6 @@
+name: main-lobby
+version: '${project.version}'
+main: com.lothus.Lobby
+author: Toddy
+depend:
+  - core
